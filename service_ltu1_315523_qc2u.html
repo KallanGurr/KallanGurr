@@ -1,0 +1,12 @@
+true - 77
+
+const getUniqueValues = array => [...new Set(array)];
+grape
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const greet = name => `Hello, ${name}!`;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getUniqueValues = array => [...new Set(array)];
+const getRandomSubset = (array, size) => array.slice(0, size);
